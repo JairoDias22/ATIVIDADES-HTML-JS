@@ -1,0 +1,105 @@
+header{ /* Estilização do cabeçalho da pagina*/
+    background-color: blueviolet;
+    color: white;
+    height: 200px;
+    padding: 30px;
+    font-style: italic;
+    margin: -20px;
+}
+
+body{ /*Cor de fundo da pagina*/
+    background-color: #e0ccf4;
+}
+
+.container{ /*estilização da div container*/
+    background-color: white;
+    padding: 30px;
+    max-width: 900px;
+    height: 1600px; 
+    position: relative;
+    left: 25%;
+    top: -60px;
+}
+
+h2{/*estilização do titulo da pagina*/
+    font-size: 25px;
+    color:#370e61 ;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-top: -20px;
+    width: 960px;
+    right: 30px;
+    position: relative;
+}
+
+.linha{
+    background-color: #370e61;
+    height: 3px;
+    width: 102px;
+    position:relative;
+    left: 400px;
+    bottom: 23px;
+}
+
+.venda{  /*Estilização do segundo titulo*/
+    font-weight: bold;
+    font-size: 35px; 
+}
+
+.descreva{ /* mudança de tamanho da fonte do subtitulo*/
+    font-size: 25px;
+}
+
+
+.inputs{ /* Estilização das bordas das caixas dos inputs*/
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    width: 400px;
+
+}
+
+textarea{ /*declarando o tamanho do comentario textarea*/
+    max-width: 300px;
+    width: 300px;
+   max-height: 100px;
+   height: 100px;
+}
+
+.opcionais{/*declaração de tamnho da div opcionais*/
+    max-width: 150px;
+    
+}
+
+.opcionais-2{/*estilização da div opcionais-2*/
+    position: relative;
+    left: 180px;
+    bottom: 80px;
+    max-width: 150;
+}
+
+
+.arquivo{  /*Estilização do input file*/
+    padding: 20px;
+    border-bottom: 2px  solid black;
+}
+
+.enviar{ /*estilização do botão de enviar*/
+    background-color: #370e61;
+    color: antiquewhite;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 40%;
+}
+
+
+footer{/*Estilização do rodapé da pagina*/
+    background-color: #370e61;
+    color: antiquewhite;
+    text-align: center;
+    padding:10px;
+    margin-bottom: 0px;
+}

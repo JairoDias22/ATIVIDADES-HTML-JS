@@ -1,0 +1,120 @@
+header{
+    background-color: rgb(128, 20, 230);
+    color: aliceblue;
+    width: 100%;
+    height: 200px;
+    padding: 30px;
+    margin: -20px;
+}
+
+body{
+    background-color: #e4daed;
+}
+
+span{
+    color: red;
+}
+
+.container{
+    max-width: 900px;
+    position: relative;
+    left: 400px;
+    bottom: 88px;
+    height: 1420px;
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 5px 5px 10px 5px black;
+    border-radius: 10px;
+}
+
+
+h2{
+text-align: center;
+color: blueviolet;
+border-bottom: 1px solid black;
+width: 960px;
+position: relative;
+right: 30px;
+
+}
+
+.linha{
+    background-color: blueviolet;
+    width: 100px;
+    height: 2px;
+    position: relative;
+    left: 400px;
+    bottom:22px ;
+}
+
+.inputs{
+    margin-bottom: 30px;
+}
+
+.inputs-2{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid black;
+    width: 400px;
+    padding: 10px
+    
+}
+
+textarea{
+    max-width: 300px;
+    width: 300px;
+    max-height: 100px;
+    height: 100px;
+}
+
+.opcionais-1{
+    width: 400px;
+    
+    
+}
+
+.opcionais-2{
+    width: 400px;
+    position: relative;
+    left: 150px;
+    bottom: 80px;
+}
+
+
+.enviar{
+    border-bottom: 2px solid black;
+    width: 930px;
+    position: relative;
+    right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+
+}
+
+.cadastrar{
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 400px;
+    top: 90px;
+    border-radius: 10px;
+}
+
+
+
+
+
+footer{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    height: 70px;
+    padding-top: 10px;
+    margin: -20px;
+    
+
+}

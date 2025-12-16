@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+        <h1>Trocas e Vendas</h1><!--Titulo da pagina-->
+        <p>O melhor site de vendas da região</p>
+    </header>
+
+    <div class="container"> <!--Div container para melhor estilização da pagina-->
+        <h2>Cadastro</h2>
+        <div class="linha"></div>
+
+        <p class="venda">Cadastre o seu veiculo para coloca-lo a venda!</p> <!--Segundo titulo-->
+        <p class="descreva">Descreva as caracteristicas do seu veiculo e marque todas os opcionais e caracteristicas que ele possui</p>
+
+        <form> <!--Formulario da pagina-->
+            <label for="text">Titulo do Anuncio</label><br><br>
+            <input class="inputs" type="text" placeholder="Defina um tiulo para o anuncio:" id="anuncio"><br><br><br>
+
+            <label for="text">Preço do Veiculo</label><br><br>
+            <input class="inputs" type="number" placeholder="Qual o preço?" id="preco"><br><br>
+
+            <p>Descrição</p>
+            <textarea name="text" placeholder="Descreva o seu veiculo" id="descricao"></textarea><br><br><br>
+            
+            <label for="text">Unico dono?</label>
+            <select id="text" name="selecionar">
+              <option value="" disabled selected>Selecionar</option>
+              <option value="sim">Sim</option>
+              <option value="nao">Não</option>
+            </select><br><br><br>
+
+            <label for="text">Marca:</label><br><br>
+            <input class="inputs" type="text" id="marca" placeholder="Digite a marca do seu veiculo:"><br><br><br>
+
+           <label for="text">Modelo:</label><br><br>
+            <input class="inputs" type="text" id="modelo" placeholder="Digite o modelo do seu veiculo:"><br><br><br>
+
+            <label for="number">Quilometragem:</label><br><br>
+            <input class="inputs" type="number" placeholder="Digite a quilometragem do veiculo:" id="Quilometragem"><br><br><br>
+
+            <label for="data">Data de compra do veiculo</label><br><br>
+            <input class="inputs" type="date" id="compra"><br><br><br>
+
+            <label for="cambio">Câmbio:</label><br>
+            <input type="radio" name="opcao" value="1" >Manual
+            <input type="radio" name="opcao" value="2" >Automático<br><br>
+
+            <p>Opcionais:</p>
+
+        <div class="opcionais"> 
+            <label for="text"></label>
+            <input type="checkbox">Air bag<br>
+            
+            <label for="text"></label>
+            <input type="checkbox">Alarme<br>
+
+            
+            <label for="text"></label>
+            <input type="checkbox">Ar condicionado<br>
+
+            
+            <label for="text"></label>
+            <input type="checkbox">Trava elétrica<br>
+
+        </div>   
+
+         <div class="opcionais-2">
+            <label for="text"></label>
+            <input type="checkbox" >Vidro elétrico<br>
+
+            
+            <label for="text"></label>
+            <input type="checkbox">Som<br>
+
+            
+            <label for="text"></label>
+            <input type="checkbox">Câmera de ré<br>
+
+            
+            <label for="text"></label>
+            <input type="checkbox">Banco de couro<br>
+         </div>
+
+           <div class="arquivo" >
+            <label for="file">Envie imagens do Veiculo:</label><br><br>
+            <input type="file" id="arquivo">
+           </div>
+
+    
+            <input class="enviar" type="submit" value="Cadastrar">
+            
+        </form>
+
+    </div>
+    
+</body>
+
+<footer> <!--Rodapé da pagina-->
+    <p>&copy;2025 todos os diretos reservados</p>
+</footer>
+
+</html>

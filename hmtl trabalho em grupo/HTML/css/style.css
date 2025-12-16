@@ -1,0 +1,95 @@
+body{ /*Estilização do corpo da pagina*/
+    background-image: url(background.jpeg);
+    background-size: 1500px;
+}
+
+header{/*Estilização do cabeçalho e da pegina e titulo da pagina  */
+    background-color: #c28735;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    bottom: 40px;
+    font-size: 30px;
+    position: relative;
+    font-style: italic;
+}
+
+h2{ /* Configuração dos subtitulos da pagina */
+    position: relative;
+    left: 750px;
+    background-color: beige;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+h3{ /*Estilização dos tiulos em cada sessao da pagina */
+    position: relative;
+    left: 450px;
+    background-color: #bba653;
+    height: 70px;
+    width: 1000px;
+    padding-top: 10px;
+    font-style: oblique;
+    text-align: center;
+    font-size: 40px;
+    color: #75320c;
+    border-radius: 25px;
+    margin-top: 70px;
+}
+
+h4{ /* Estilização dos titulos dos pratos de comida   */
+    font-style: italic;
+    color: #73733b;
+}
+
+.entrada{ /* configuração da posiçaõ das duas primeiras divs*/
+    position: relative;
+    left: 300px;
+}
+
+.food{ /*class geral para modificação das divs e textos */
+    position: relative;
+    left: 150px;
+    display: inline-block;
+    margin: 50px;
+    height: 350px;
+    width: 300px;
+    background-color: azure;
+    border-radius: 20px;
+    padding: 30px;
+    border: 15px #8B4513 solid;
+    vertical-align: top;
+
+}
+
+.img{ /* class geral para estilizar as imagens da pagina  */
+        height: 200px;
+        width: 200px;
+        margin-left: 40px;
+        border-radius: 15px;
+}
+
+
+
+footer{ /* Estilização do rodape da pagina   */
+    background-color: #03071a;
+    position: relative;
+    left: 320px;
+    height: 200px;
+    width: 1200px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+
+}
+
+.rodape{ /*Configuração do tamanho da imagem do rodape da pagina   */
+    height: 70px;
+}

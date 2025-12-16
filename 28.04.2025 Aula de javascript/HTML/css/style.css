@@ -1,0 +1,19 @@
+body{
+    background-color: #82d3d3;
+
+}
+
+.box{
+    margin: 20px;
+    background-color: cadetblue;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}

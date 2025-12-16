@@ -1,0 +1,78 @@
+/*Definição da cor do background da pagina*/
+body{
+    background-color: #9fbeda;
+}
+
+/*Personalização da div container da pagina*/
+.container{
+    background-color: #466e94;
+    max-width: 1000px;
+    width: 1000px;
+    height: 2200px;
+    border: 10px double #81abd3;
+    border-radius: 20px;
+}
+
+/*personalização do titulo*/
+header{
+    background-color: aliceblue;
+    margin: 30px 0px 30px 0px;
+    padding: 30px 20px 30px 20px;
+    font-family: "Cascadia Code", sans-serif;
+    border: 10px double black;
+    border-radius: 20px;
+}
+/*Personalização da noticia principal da pagina*/
+.noticia-principal{
+    margin: 30px 0px 30px 0px;
+    color: aliceblue;
+    font-family: "Dancing Script", cursive;
+}
+
+/*Personalização da imagem da noticia principal*/
+.card-imgem{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 230px;
+    border: 10px double #0a325f;
+    border-radius: 20px;
+    background-color: #ffffff;
+
+}
+/*ajuste de tamanho das imagens do slide da pagina*/
+.w-100{
+    width: 800px;
+    height: 450px;
+}
+
+/*Ajuste de tamanho e posição dos cards*/
+.card-group{
+    position: relative;
+    margin:30px;
+    top: 80px;
+}
+/*Ajuste de tamanho e posição dos botões do final da pegina*/
+.pagination{
+    position: relative;
+    top: 180px;
+    left: 350px;
+}
+/*personalização do rodapé*/
+footer{
+    margin-top: 50px;
+    color: aliceblue;
+}
+/*personalização do background dos elementos do rodapé*/
+.rodape{
+    background-color: #466e94;
+}
+/*personalização de cor do rodape*/
+.rodape-titulo{
+    background-color: #408bac;
+    color: aliceblue;
+}
+/*personalização da cor do ultimo texto do rodapé*/
+.texto-rodape{
+    color: aliceblue;
+}

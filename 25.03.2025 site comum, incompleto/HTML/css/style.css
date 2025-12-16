@@ -1,0 +1,16 @@
+header{
+    background-color: #6cad66;
+    text-align: center;
+}
+
+h1{
+    position: relative;
+    top: 30px;
+    right: 400px;
+}
+
+nav{
+    position: relative;
+    left: 400px;
+
+}

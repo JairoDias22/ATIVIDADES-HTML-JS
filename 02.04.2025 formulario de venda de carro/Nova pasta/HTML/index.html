@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <p>Cadastre seu veículo para vender mais rápido!</p>
+    </header>
+
+    <div class="container">
+
+       <main>
+        <h2>Cadastro</h2>
+        <div class="linha"></div>
+
+        <h1>Venda fácil seu veículo!</h1>
+        <p>Descreva as características so seu veículo e marque todas os opcionais e características que ele possui</p>
+
+        <form>
+          
+             <div class="inputs titulo" ><br>
+            <label for="text">Título do anúncio:<span>*</span></label><br>
+            <input class="inputs-2" type="text" placeholder="Defina um titulo para o seu veículo">
+            </div>
+          
+            <div class="inputs preco">
+            <label for="number">Preço do veículo:<span>*</span></label><br>
+            <input class="inputs-2"  type="number">
+            </div>
+       
+            <div class="inputs descricao" >
+            <p>Descrição:<span>*</span></p>
+            <textarea name="text" placeholder="Descreva seu veículo" ></textarea>
+            </div>
+ 
+            <div class="inputs opicoes" >
+            <label for="text">Único dono?<span>*</span></label>
+            <select name="opicoes" >
+                <option value="" disabled selected>Selecionar</option>
+                <option value="sim">Sim</option>
+                <option value="nao">Nâo</option>
+            </select>
+           </div>
+  
+
+           <div class="inputs marca" >
+            <label for="text">Marca:<span>*</span></label><br>
+            <input class="inputs-2"  type="text" placeholder="Digite a marca do seu veículo" >
+          </div>
+  
+          <div class="inputs modelo" >
+            <label for="text">Modelo:<span>*</span></label><br>
+            <input class="inputs-2"  type="text" placeholder="Digite o modelo do seu veículo">
+          </div>
+
+
+            <div class="inputs quilometragem" >
+            <label for="number">Quilometragem do veículo:<span>*</span></label><br>
+            <input class="inputs-2"  type="number">
+            </div>
+ 
+            <div class="inputs data">
+            <label for="data">Data de compra do Veículo:<span>*</span></label><br>
+            <input class="inputs-2"  type="date">
+           </div>
+
+           <div class="inputs cambio" >
+            <label for="cambio">Câmbio:<span>*</span></label><br>
+            <input type="radio"  name="opcao"  value="1">Manual
+            <input type="radio"  name="opcao"  value="2">Automático
+          </div>
+
+            <label for="text">Opcionais:<span>*</span></label>
+
+          <div class="opcionais-1" >
+            <input type="checkbox">Air bag<br>
+            <input type="checkbox">Alarme<br>
+            <input type="checkbox">Ar condicionado<br>
+            <input type="checkbox">Trava Elétrica<br>
+          </div>
+
+          <div class="opcionais-2" >
+            <input type="checkbox">Vidro Elétrico<br>
+            <input type="checkbox">Som<br>
+            <input type="checkbox">Câmera de ré<br>
+            <input type="checkbox">Banco de couro<br>
+          </div> 
+          
+          <div class="enviar">
+          <label for="arquivo">Envie imagens do veículo:<span>*</span></label><br><br>
+          <input type="file">
+          </div>
+
+        </form>
+
+
+        <label for="enviar"></label>
+        <input class="cadastrar" type="submit" value="Cadastrar">
+
+       </main>
+
+    </div>
+    
+</body>
+
+<footer>
+    <p>&copy;2025 Todos os direitos reservados</p>
+</footer>
+
+</html>

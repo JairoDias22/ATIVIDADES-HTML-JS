@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(77, 210, 243);
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-left: 60px;
+    font-size: 2em;
+    font-style: italic;
+    background-color: rgb(97, 156, 238);
+}
+
+.imge{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    border-radius: 30px;
+}
+
+section{
+    border-radius: 10px;
+    position: relative;
+    left: 30%;
+    bottom: 900px;
+    display: inline-block;
+    background-color: rgb(47, 131, 240);
+}
